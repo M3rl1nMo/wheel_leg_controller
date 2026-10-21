@@ -67,7 +67,7 @@ ros2 bag record /imu /joint_states /actuator_cmd -o balance_test
 | pitch 最大偏差 | **1.28°** | < 10° |
 | 前进位移 | **3.01 m**（最大 3.23 m） | ≥ 3 m 不摔 |
 
-测试方法：python3 scripts/ploy_baf.py bag/balance_test（此脚本借助ai编写）
+测试方法：python3 scripts/ploy_bag.py bag/balance_test（此脚本借助ai编写）
 ![pitch 与位移曲线](balance_test_plot.png)
 
 ## 6.手柄遥控
